@@ -1,0 +1,145 @@
+@import url(../css/normalize.css);
+@import url(../css/skeleton.css);
+/*
+* Copyright 2013, Nicole Dominguez
+* Tools used: Skeleton, Github, Adobe Creative Cloud, Sublime Text 2
+*/
+body {
+  -webkit-text-size-adjust: 100%;
+  font: 14px/21px "Bitter", Georgia, serif;
+  background: #fbf3ef;
+  color: #231b1f; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #79b7b0;
+  font-weight: 300;
+  font-weight: normal; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit; }
+
+h1 {
+  font-size: 115px;
+  line-height: 60px;
+  margin-bottom: 16px;
+  background-image: url("../img/nicole-dominguez.png");
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  padding-left: 25px;
+  background-size: 93%;
+  margin-bottom: 35px;
+  margin-top: 50px;
+  height: 353px;
+  width: 570px;
+  float: left; }
+
+h2 a {
+  font-size: 1.5em;
+  text-decoration: none; }
+h2 span {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  word-spacing: 2px;
+  color: #ecc5b2; }
+
+h3 {
+  font-size: 28px;
+  line-height: 34px;
+  margin-bottom: 8px; }
+
+h4 {
+  font-size: 21px;
+  line-height: 30px;
+  margin-bottom: 4px; }
+
+p {
+  margin: 0 0 20px 0;
+  font-family: 'Bitter', serif; }
+
+p img {
+  margin: 0; }
+
+em {
+  font-style: italic; }
+
+strong {
+  font-weight: bold;
+  color: #333; }
+
+small {
+  font-size: 80%; }
+
+a:hover, a:focus {
+  color: #000; }
+
+.amp {
+  font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px; }
+
+header {
+  background: #674969;
+  border-bottom: 4px solid #936896;
+  padding: 20px 0 15px 0; }
+  header span {
+    color: #856d87;
+    font-family: "Bitter", Georgia, serif;
+    font-style: italic;
+    font-size: 13px;
+    display: block;
+    margin-top: 5px;
+    line-height: 1em; }
+  header h2 {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    line-height: 0.80em;
+    font-size: 38px;
+    text-transform: uppercase;
+    text-shadow: 0px -2px 0px #583f5a;
+    color: #fbf3ef; }
+  header ul {
+    float: right; }
+    header ul li {
+      display: inline-block;
+      padding: 5px 0 5px 25px;
+      font-size: 16px;
+      color: #433546; }
+      header ul li a {
+        text-decoration: none;
+        color: #fee4df; }
+        header ul li a:hover {
+          color: #fcc2b8; }
+
+aside {
+  margin: 0px auto;
+  padding: 50px 0;
+  border-bottom: 1px solid #f3dbce;
+  font-size: 26px;
+  line-height: 1.3em;
+  text-align: center;
+  color: #583f5a; }
+  aside span {
+    font-size: 16px; }
+
+#main {
+  padding: 50px 0;
+  border-bottom: 1px solid #f3dbce; }
+  #main p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #404040; }
+
+footer {
+  color: #211f2d; }
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  header h2 {
+    font-size: 30px; }
+  header span {
+    font-size: 12px; }
+  header ul li {
+    padding: 5px 0 5px 30px;
+    font-size: 15px; } }

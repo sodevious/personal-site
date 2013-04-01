@@ -1,0 +1,200 @@
+/*
+* Copyright 2013, Nicole Dominguez
+* Tools used: Skeleton, Github, Adobe Creative Cloud, Sublime Text 2
+*/
+
+// Variables
+$offWhite: #fbf3ef;
+$offBlack: #1a1a1a;
+$purple: #2f2b3f;
+$teal: #79b7b0;
+$plum: #674969;
+$pink: #FA9887;
+$rose: #DA4C66;
+
+$gutter: 25px;
+
+$serif-font: "Bitter", Georgia, serif;
+$sans-font: "Raleway", "Helvetica Neue", sans-serif;
+
+@import '../css/normalize.css';
+@import '../css/skeleton.css';
+
+// * { background: rgba(1,1,1, 0.05); }
+
+// Basics
+body {
+  -webkit-text-size-adjust: 100%;
+  font: 14px/21px $serif-font;
+  background: $offWhite;
+  color: #231b1f;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  color: $teal;
+  font-weight: 300;
+  font-weight: normal; 
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+
+h1 { 
+  font-size: 115px; line-height: 60px; margin-bottom: 16px; 
+  background-image: url("../img/nicole-dominguez.png");
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  padding-left: $gutter;
+  background-size: 93%;
+  margin-bottom: 35px;
+  margin-top: 50px;
+  height: 353px;
+  width: 570px;
+  float: left;
+}
+
+h2 {
+
+  a {
+font-size: 1.5em;
+text-decoration: none;
+  }
+
+  span {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    word-spacing: 2px;
+    color: darken($offWhite, 15%);
+  }
+}
+
+h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+
+p { margin: 0 0 20px 0; font-family: 'Bitter', serif; }
+p img { margin: 0; }
+
+em { font-style: italic; }
+strong { font-weight: bold; color: #333; }
+small { font-size: 80%; }
+
+a:hover, a:focus { color: #000; }
+
+.amp {
+  font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+
+// Lists
+
+// Header
+header {
+  background: $plum;
+  border-bottom: 4px solid lighten($plum, 15%);
+  padding: 20px 0 15px 0;
+
+  span {
+    color: mix($plum, #fff, 80%);
+    font-family: $serif-font;
+    font-style: italic;
+    font-size: 13px;
+    display: block;
+    margin-top: 5px; 
+    line-height: 1em;
+  }
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    font-family: $sans-font;
+    font-weight: 700;
+    line-height: 0.80em;
+    font-size: 38px;
+    text-transform: uppercase;
+    text-shadow: 0px -2px 0px darken($plum, 5%);
+
+    color: mix($offWhite, $purple, 100%);
+  }
+
+  ul {
+    float: right;
+
+    li {
+      display: inline-block;
+      padding: 5px 0 5px 25px;
+      font-size:  16px;
+      color: mix($pink, $purple, 10%);
+
+      a {
+        text-decoration: none;
+        color: lighten($pink, 18%);
+        &:hover { color: lighten($pink, 10%); }
+      }
+    }
+  }
+}
+
+aside {
+  margin: 0px auto;
+
+  padding: $gutter*2 0;
+  border-bottom: 1px solid darken($offWhite, 8%);
+  font-size: 26px;
+  line-height: 1.3em;
+  text-align: center;
+  color: darken($plum, 5%);
+
+
+
+  span {
+    font-size: 16px;
+  }
+}
+
+#main {
+
+  padding: $gutter*2 0;
+  border-bottom: 1px solid darken($offWhite, 8%);
+
+  p {
+    font-size: 18px;
+    line-height: 26px;
+    color: lighten($offBlack, 15%); 
+  }
+}
+
+// Footer
+footer { color: darken($purple, 6%); }
+
+// Media Queries
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  header {
+    h2 {
+      font-size: 30px;
+    }
+
+    span {
+      font-size: 12px;
+    }
+
+    ul li {
+      padding: 5px 0 5px 30px;
+      font-size:  15px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+   
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
